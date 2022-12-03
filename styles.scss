@@ -1,0 +1,20 @@
+* img {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.price__btns {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 5px 10px;
+    background: White;
+    border: 2px dashed red;
+    cursor: pointer;
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
